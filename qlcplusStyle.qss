@@ -1,0 +1,138 @@
+/* QLC+ Black theme by Emerick Herve */
+
+/* ##### Main window ##### */
+QMainWindow, QDialog
+{ 
+ background-color: #404B57; 
+ color: #E6E6E6; 
+}
+
+
+/* ##### Tree (Fixtures) ##### */
+QTreeWidget, QTreeView 
+{ 
+ background-color: #3A444F; 
+ alternate-background-color: #404B57; 
+ color: #E6E6E6; 
+  font-size: 20px;
+}
+
+/* ##### Text (Fixture/In-Out details) ##### */
+QTextBrowser 
+{ 
+ background-color: #3A444F; 
+ color: #E6E6E6; 
+}
+
+
+/* ##### Universe list ##### */
+QListWidget
+{ 
+    background-color: #3A444F; 
+    color: #E6E6E6; 
+}
+
+
+/* ##### Splitter ##### */
+QSplitter::handle {
+    background-color: #6f7c8b;
+    border: 0px;
+}
+
+QSplitter::handle:hover {
+    background-color: #787876;
+    border: 0px;
+}
+
+
+/* ##### Toolbars, ... ##### */
+QToolBar {
+    background: #404B57;
+    color: white;
+}
+
+QLabel {
+    color: white;
+    padding: 3px;
+}
+
+MonitorFixture QLabel {
+    color: black;
+}
+
+QTabWidget::pane {
+    border: 0px;
+}
+
+QTabWidget::tab-bar {
+    left: 5px; /* move to the right by 5px */
+}
+
+QTabBar::tab {
+    background: #404B57;
+    border: 0px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #55616f;
+}
+
+QHeaderView::section {
+    background: #55616f;
+    color: white;
+    border: 0px;
+    padding: 3px;
+}
+
+QGroupBox, QCheckBox {
+    color: #E6E6E6; 
+}
+
+
+/* ##### Scrollbars ##### */
+
+QScrollBar:vertical, QScrollBar:horizontal {
+
+  border: 1px solid #13161a;
+  background-color: #252b33;
+  width: 17px;
+  margin: 21px 0 21px 0;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+  background-color: #47515d;
+  min-height: 25px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical, QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: 1px solid #13161a;
+    background-color: #3A444F;
+    height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::add-line:horizontal {
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: #869ab4;
+}
+
+/*QScrollBar::up-arrow:vertical
+{
+  image: url(:/BarIcon/Icons/uparrow.png);
+}
+
+QScrollBar::down-arrow:vertical
+{
+  image: url(:/BarIcon/Icons/downarrow.png);
+}*/
