@@ -1,0 +1,8 @@
+# QLC+ dark theme
+Simple dark theme for QLC+
+
+Copy **qlcplusStyle.qss** to **C:\Users\YOURUSERNAME\QLC+\qlcplusStyle.qss**
+
+![Capture 1](.github/capture1.png)
+
+![Capture 2](.github/capture2.png)
