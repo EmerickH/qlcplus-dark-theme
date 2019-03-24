@@ -102,7 +102,7 @@ QScrollBar:vertical, QScrollBar:horizontal {
 }
 
 QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-  background-color: #47515d;
+  background-color: #5f6d80;
   min-height: 25px;
 }
 
@@ -124,7 +124,7 @@ QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
 
 
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
-    background: #869ab4;
+    background: #949fac;
 }
 
 /*QScrollBar::up-arrow:vertical
@@ -135,4 +135,67 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-pa
 QScrollBar::down-arrow:vertical
 {
   image: url(:/BarIcon/Icons/downarrow.png);
+}*/
+
+/* ##### Toolbar buttons ##### */
+QToolButton
+{
+    color: white;
+    background: transparent;
+}
+
+FixtureConsole QToolButton, ConsoleChannel QToolButton{
+  background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ddedff, stop: 1 #ddedff); /*#de0707;*/
+  padding: 5px;
+  border: none;
+}
+
+QComboBox {
+  background: #778390;
+  border: none;
+  selection-background-color: #778390;
+  selection-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+QComboBox QAbstractItemView {
+  background: #778390;
+  color: #FFFFFF;
+  border: none;
+  selection-color: #FFFFFF;
+  selection-background-color: #314b67;
+}
+
+QComboBox:on {
+  selection-background-color: #314b67;
+  background: #536272;
+}
+
+/* ##### GrandMaster ##### */
+
+GrandMasterSlider QLabel{
+  color:black;
+  /*background-color: transparent;
+  border: 0px solid black;*/
+}
+
+/*GrandMasterSlider ClickAndGoSlider{ //Working
+  background-color:red;
+}
+GrandMasterSlider {  // Not working because overwritten by code...
+  background-color:green;
+  border: 5px solid green;
+  border-radius: 0px; 
+}
+
+ConsoleChannel QGroupBox{
+  background-color: blue;
+  border: 0px solid gray;
+  border-radius: 0px;
+}
+
+FixtureConsole QGroupBox{
+  background-color: blue;
+  border: 0px solid gray;
+  border-radius: 0px;
 }*/
