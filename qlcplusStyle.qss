@@ -7,6 +7,10 @@ QMainWindow, QDialog
  color: #E6E6E6; 
 }
 
+QRadioButton
+{
+  color: #E6E6E6;
+}
 
 /* ##### Tree (Fixtures) ##### */
 QTreeWidget, QTreeView 
