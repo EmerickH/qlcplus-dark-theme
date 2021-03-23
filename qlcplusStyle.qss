@@ -220,3 +220,8 @@ FixtureConsole QGroupBox{
   border: 0px solid gray;
   border-radius: 0px;
 }*/
+
+/* ##### Speed Dial ##### */
+SpeedDial QPushButton {
+ color: #000000;
+}
