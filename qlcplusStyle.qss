@@ -28,6 +28,24 @@ QTextBrowser
  color: #E6E6E6; 
 }
 
+/* ##### Editable Fields ##### */
+QComboBox
+{
+ background-color: #5F6F78;
+ color: #e6e6e6;
+}
+
+QLineEdit
+{
+ background-color: #5F6F78;
+ color: #e6e6e6;
+}
+
+EFXEditor QWidget:editable 
+{
+  background-color: #5F6F78;
+  color: #e6e6e6;
+}
 
 /* ##### Universe list ##### */
 QListWidget
@@ -35,7 +53,6 @@ QListWidget
     background-color: #3A444F; 
     color: #E6E6E6; 
 }
-
 
 /* ##### Splitter ##### */
 QSplitter::handle {
