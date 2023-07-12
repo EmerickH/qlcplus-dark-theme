@@ -61,7 +61,7 @@ QLabel {
 }
 
 MonitorFixture QLabel {
-    color: black;
+    color: lightgrey;
 }
 
 QTabWidget::pane {
